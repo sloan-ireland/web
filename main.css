@@ -1,0 +1,41 @@
+/*Anything inbetween these these markers are comments*/
+
+/* TNPG: Pizzaaa
+Members: Sloan Ireland, Marc Jiang, Phoebe Zhang
+IntroCS pd2 sec2
+HW05-- Stuylin
+2021-02-18 */
+
+/*General CSS format: 
+selector {property: property value;
+         }
+*/
+
+/*Anything with the html selector applies the property to the whole document. */
+html {background-color: rgba(191, 191, 63, 0.3); /*Here the color of the entire document is being set with the red, green, blue, alpha scale to set the color. See the website https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool to set any color */
+     } 
+
+/*Only affects the h1 heading at the top of the page */
+h1 {border: 4mm ridge rgba(170, 50, 220, .6); /*creates a box that has this "ridge" in it that is 4 mm thick and has the color scheme according to the rgba scale*/
+    background-color: red; /*within the box sets the background color red*/
+    font-family: 'Reggae One', cursive; /*sets the font to the cursive version of reggae one*/
+}
+
+
+h2 {text-shadow: 1.25px 1.25px 1.25px grey; /*text shadow creates a bit of a backdrop behind the words. 
+
+/*Rules for the text-shadow property
+The first pixel value sets the horizontal offset of the shadow from the text: how far it moves across.
+The second pixel value sets the vertical offset of the shadow from the text: how far it moves down.
+The third pixel value sets the blur radius of the shadow. A larger value produces a more fuzzy-looking shadow.
+The fourth value sets the base color of the shadow. (description from https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics */
+   
+    color: rgb(32, 32, 74); /*sets color along the lines of the rgb scale which is not affected by the alpha number which controls the translucency of the color*/
+   }
+
+p {background-image: url(https://image.freepik.com/free-photo/light-blue-bokeh-light-abstract-background_73588-51.jpg); 
+  } /*sets any paragrpah backgrounds to this specific image*/
+  
+styledimg {background-image: url(https://image.freepik.com/free-photo/light-blue-bokeh-light-abstract-background_73588-51.jpg);
+           background-repeat: no-repeat;
+          } /*sets the particular image specified in the URL as an image that doesn't repeat itself in the background and instead starts the image over again */
